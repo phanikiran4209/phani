@@ -1,0 +1,63 @@
+/* src/styles/livemap.css */
+
+/* Ensure the map takes up the full screen */
+.map-container {
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
+  }
+  
+  /* Optional: Style for the header or any other text */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+  }
+  
+  /* Popup styling */
+  .leaflet-popup-content {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Popup header styling */
+  .leaflet-popup-content h4 {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Popup text styling */
+  .leaflet-popup-content p {
+    margin: 4px 0;
+    font-size: 1rem;
+  }
+  
+  /* Optional: Style for the map zoom control size */
+  .leaflet-control-zoom {
+    font-size: 14px;
+  }
+  
+  /* Optional: Style for the map zoom buttons */
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Optional: Style for the map at smaller screen sizes */
+  @media screen and (max-width: 768px) {
+    .map-container {
+      height: 70vh;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  

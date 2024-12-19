@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Set background color to white */
+}
+
+.login-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem; /* Adjusted for more spacing */
+    width: 100%;
+}
+
+.school {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 0;
+    font-family: Arial, sans-serif;
+}
+
+.school-text {
+    color: #1F2937;
+    font-size: 4rem;
+}
+
+.bus-management-text {
+    color: #FFD700;
+    font-size: 3rem;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+.illustration {
+    flex: 1;
+    text-align: center;
+}
+
+.illustration img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-form {
+    flex: 1;
+    background: #1f2937;
+    color: #fff;
+    padding: 3rem;
+    border-radius: 8px;
+    text-align: left;
+    width: 100%;
+    max-width: 450px;
+    margin: 2rem auto; /* Added spacing below items */
+    position: relative;
+}
+
+.login-form h2 {
+    color: #FFD700;
+    margin-bottom: 1rem;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.login-form input {
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+}
+
+.login-form button {
+    background: #FFD700;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.parent-login-text {
+    text-align: center;
+    color: #FFD700;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem; /* Adjusted spacing for clarity */
+}
+
+.parent-text {
+    color: #FFD700;
+}
+
+.login-text {
+    color: #ffffff;
+}
+
+.forgot-password {
+    text-align: right;
+    color: #FFD700;
+    font-size: 1rem;
+    margin-top: 1rem; /* Adjusted for better spacing */
+    cursor: pointer;
+}
+
+.road-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    margin-top: 2rem; /* Adjusted spacing for alignment */
+}
+
+.road-image {
+    width: 150%;
+    max-width: none;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+footer {
+    margin-top: 4rem; /* Increased spacing for better alignment */
+}
+

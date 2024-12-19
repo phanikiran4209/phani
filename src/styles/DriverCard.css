@@ -1,0 +1,96 @@
+.driver-card {
+    background: linear-gradient(145deg, #34495e, #2c3e50);
+    color: white;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5), -8px -8px 15px rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;  /* Align text to the left for better layout */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.driver-card:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5), -10px -10px 25px rgba(255, 255, 255, 0.1); /* Enhance shadow on hover */
+}
+
+.header {
+    display: flex; /* Use flexbox for positioning image and title side by side */
+    align-items: center; /* Vertically align the image and title */
+    margin-bottom: 15px; /* Add space below the image and title */
+}
+
+.driver-image {
+    width: 50px;  /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image fits well inside the circle */
+    margin-right: 15px; /* Space between the image and the title */
+    transition: transform 0.3s ease; /* Smooth transition for image hover effect */
+}
+
+.driver-image:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+}
+
+.driver-card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white; /* Set the title color to white */
+    margin: 0; /* Remove default margin */
+    transition: color 0.3s ease; /* Smooth transition for title color on hover */
+}
+
+.driver-card:hover h2 {
+    color: #f59e0b; /* Change title color on hover */
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.details p {
+    margin: 5px 0;  /* Space out the location and speed text */
+    font-size: 1rem;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.live-map-button {
+    background-color: #f1c40f;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.live-map-button:hover {
+    background-color: #d4a50c;
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.call-button {
+    background: transparent;
+    border: 2px solid #f1c40f;
+    color: #f1c40f;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.call-button:hover {
+    background-color: rgba(241, 196, 15, 0.2);
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}

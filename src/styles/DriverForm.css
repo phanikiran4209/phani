@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Dark background color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .driver-form {
+    width: 100%;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #1f2937;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .driver-form h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; /* Increased gap between the inputs */
+    margin-bottom: 30px; /* Increased margin for separation */
+  }
+  
+  .input-row label {
+    display: block;
+    font-size: 14px;
+    color: #FFD700;
+    flex: 1;
+  }
+  
+  .input-row input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #FFD700;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  
+  .input-row input:focus {
+    border-color: #FFD700;
+    box-shadow: 0 0 10px rgba(255, 159, 11, 0.5);
+  }
+  
+  .checkbox-group {
+    margin-bottom: 20px; /* Added space for checkbox section */
+  }
+  
+  .checkbox-label {
+    font-size: 14px;
+    color: #FFD700;
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-label input {
+    margin-left: 10px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #f59e0b;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submit-btn:hover {
+    background-color: #d97706;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submit-btn:focus {
+    outline: none;
+    box-shadow: 0 0 12px rgba(255, 159, 11, 0.7);
+  }
+  
+  /* Glow effect for input fields */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .input-row {
+      flex-direction: column;
+    }
+  
+    .input-row label,
+    .input-row input {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    .checkbox-group {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .driver-form {
+      padding: 20px;
+    }
+  
+    .submit-btn {
+      font-size: 14px;
+      padding: 12px;
+    }
+  
+    .input-row label {
+      font-size: 12px;
+    }
+  
+    .driver-form h2 {
+      font-size: 20px;
+    }
+  }
+  
+  /* Added margin for the Profile Photo input */
+  .driver-form input[type="file"] {
+    margin-bottom: 30px; /* Increased gap between the profile photo and the register button */
+  }
+  

@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.get-started-page2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.overlay2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1f2937;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  margin: 2rem;
+}
+
+.get-started-title2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.school-title2 {
+  color: #FFD700;
+}
+
+.login-title2 {
+  color: #ffffff;
+}
+
+.input-container2 {
+  margin-bottom: 1.5rem;
+  width: 150%;
+  margin-left: -50px; /* Aligns labels to the left */
+}
+
+.input-container2 label {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  text-align: left; /* Ensures alignment to the left */
+  margin-left: 0; /* Keeps it aligned at the left edge */
+}
+
+.input-box2 {
+  padding: 0.75rem;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #333;
+  color: #fff;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+.input-box2:focus {
+  outline: none;
+  border-color: #FFD700;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+}
+
+.forgot-password-link2 {
+  display: inline-block;
+  font-size: 1rem;
+  color: #FFD700;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.forgot-password-link2:hover {
+  text-decoration: underline;
+}
+
+.get-started-btn2 {
+  background-color: #FFD700;
+  color: black;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+  border: none;
+  font-size: 1.1rem;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+}
+
+.get-started-btn2:hover {
+  background-color: #FFC700;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 1);
+}
+
+.get-started-btn2:active {
+  transform: scale(1);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+}
+
+@media (max-width: 576px) {
+  .overlay2 {
+    padding: 1.5rem;
+    max-width: 100%;
+  }
+
+  .get-started-title2 {
+    font-size: 1.8rem;
+  }
+
+  .input-box2 {
+    width: 100%;
+  }
+
+  .get-started-btn2 {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
